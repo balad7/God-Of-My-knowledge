@@ -1,0 +1,29 @@
+﻿#grid .grid {
+  overflow: hidden;
+}
+
+#grid .grid > div {
+  overflow: hidden;
+  -webkit-perspective: 1500px;
+  -ms-perspective: 1500px;
+  perspective: 1500px;
+  -webkit-perspective-origin: 50% 0;
+  -ms-perspective-origin: 50% 0;
+  perspective-origin: 50% 0;
+  transform-style: preserve-3d;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  cursor: pointer;
+}
+
+#grid .grid > div.back {
+  width: 0;
+  height: 0;
+}
+
+
+
+
+
+
